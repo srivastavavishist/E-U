@@ -1,0 +1,218 @@
+window.EU_DATA = {
+  meta: {
+    product_name: "Technology & Software Intelligence",
+    edition: "August 2026",
+    publication_date: "2026-08-16",
+    company_count: 13,
+    brief_count: 13,
+    editorial_readout: "The technology sector in Q2 2026 has been defined by the profound transition from experimental AI to 'Agentic AI' and the massive infrastructure build-out required to support it. Hyperscaler cloud capacity remains effectively sold out, with Google Cloud reporting an 82% YoY revenue surge, reflecting a broader trend where AI-related investments are the primary growth engine across the tech landscape. However, this growth is met with intense CapEx scrutiny and margin pressures as companies race to build power-intensive data centers and advanced cooling systems.\n\nOn the regulatory front, August 2026 marks a watershed moment with the main application phase of the EU AI Act taking effect, enforcing strict transparency rules for General Purpose AI (GPAI) and deepfakes. This contrasts sharply with the US 'light-touch' federal approach and tightening semiconductor export controls, including new Section 232 actions on polysilicon. Top-tier strategy firms (McKinsey, BCG, Bain) now estimate a $100 billion to $200 billion net new value creation opportunity driven by autonomous, multistep reasoning AI agents, fundamentally altering the SaaS operating model and forcing enterprise IT budgets to pivot sharply toward data modernization and embedded AI."
+  },
+  industry_cards: [
+    {
+      id: "cloud-infrastructure",
+      db_industry: "Cloud & Infrastructure",
+      name: "Cloud & Infrastructure",
+      eyebrow: "AI Build-Out CapEx",
+      top_trend: "Hyperscaler capacity constraints and power-intensive data center investments as highlighted by BCG and McKinsey.",
+      readout: "Q2 2026 earnings show cloud capacity mostly sold out. Google Cloud surged 82% to $24.8B, while Amazon and Microsoft continue massive AI server deployment. CapEx margins are under severe scrutiny.",
+      monitored_count: 5,
+      core_count: 4,
+      context_count: 1,
+      readout_as_of: "2026-08-16",
+      freshness_status: "CURRENT",
+      freshness_age_days: 0,
+      presentation_mode: "canonical_brief",
+      href: "industry.html?id=cloud-infrastructure"
+    },
+    {
+      id: "enterprise-software",
+      db_industry: "Enterprise Software",
+      name: "Enterprise Software",
+      eyebrow: "Agentic AI SaaS Pivot",
+      top_trend: "Bain estimates a $100B US market opportunity for SaaS transitioning to 'Agentic' models capable of cross-system automation.",
+      readout: "Valuations face a correction (Bain midyear 2026), but companies prioritizing embedded AI over 'tool sprawl' are winning. Salesforce, Oracle, and SAP emphasize AI agents executing complex multi-step workflows.",
+      monitored_count: 4,
+      core_count: 4,
+      context_count: 0,
+      readout_as_of: "2026-08-16",
+      freshness_status: "CURRENT",
+      freshness_age_days: 0,
+      presentation_mode: "canonical_brief",
+      href: "industry.html?id=enterprise-software"
+    },
+    {
+      id: "cybersecurity",
+      db_industry: "Cybersecurity",
+      name: "Cybersecurity",
+      eyebrow: "AI-Enabled Defense",
+      top_trend: "Consolidation around AI-native security platforms and identity management, commanding valuation premiums.",
+      readout: "Spending remains resilient despite macro headwinds. CrowdStrike and Akamai reported strong Q2 results, though profitability margins are squeezed by continuous R&D investments to combat AI-generated threats.",
+      monitored_count: 3,
+      core_count: 3,
+      context_count: 0,
+      readout_as_of: "2026-08-16",
+      freshness_status: "CURRENT",
+      freshness_age_days: 0,
+      presentation_mode: "canonical_brief",
+      href: "industry.html?id=cybersecurity"
+    },
+    {
+      id: "semiconductors",
+      db_industry: "Semiconductors",
+      name: "Semiconductors",
+      eyebrow: "Export Controls & AI Demand",
+      top_trend: "Intense demand for advanced compute clashed with new August 2026 US Section 232 tariffs on polysilicon.",
+      readout: "NVIDIA, TSMC, and Intel earnings highlight an insatiable appetite for AI GPUs and custom silicon. Geopolitics continues to dictate supply chain shifts, forcing localized fab expansions.",
+      monitored_count: 3,
+      core_count: 3,
+      context_count: 0,
+      readout_as_of: "2026-08-16",
+      freshness_status: "CURRENT",
+      freshness_age_days: 0,
+      presentation_mode: "canonical_brief",
+      href: "industry.html?id=semiconductors"
+    },
+    {
+      id: "ai-data-platforms",
+      db_industry: "AI & Data Platforms",
+      name: "AI & Data Platforms",
+      eyebrow: "Compliance & Governance",
+      top_trend: "The August 2026 EU AI Act enforcement dictates strict transparency (Article 50) for GPAI and synthetic data labeling.",
+      readout: "Enterprises are rapidly auditing their AI data pipelines to comply with EU regulations and navigating a patchwork of US state laws. Data modernization accounts for 6-8% IT budget growth globally.",
+      monitored_count: 3,
+      core_count: 2,
+      context_count: 1,
+      readout_as_of: "2026-08-16",
+      freshness_status: "CURRENT",
+      freshness_age_days: 0,
+      presentation_mode: "canonical_brief",
+      href: "industry.html?id=ai-data-platforms"
+    }
+  ],
+  industry_pages: {
+    "cloud-infrastructure": {
+      id: "cloud-infrastructure",
+      db_industry: "Cloud & Infrastructure",
+      name: "Cloud & Infrastructure",
+      eyebrow: "AI Build-Out CapEx",
+      latest_brief: { brief_id: 1, title: "Hyperscalers Q2 2026: Capacity Constraints", brief_date: "2026-08-15", qc_score: 4.9 },
+      summary: { top_trend: "Hyperscaler capacity constraints.", readout: "Q2 2026 earnings show cloud capacity mostly sold out." },
+      counts: { industry: 5, monitored_count: 5, core_count: 4, context_count: 1 },
+      presentation_mode: "canonical_brief"
+    },
+    "enterprise-software": {
+      id: "enterprise-software",
+      db_industry: "Enterprise Software",
+      name: "Enterprise Software",
+      eyebrow: "Agentic AI SaaS Pivot",
+      latest_brief: { brief_id: 2, title: "SaaS Q2 2026: Agentic AI Shift", brief_date: "2026-08-12", qc_score: 4.7 },
+      summary: { top_trend: "Bain estimates $100B US market for Agentic SaaS.", readout: "Valuations face correction, companies embedding AI win." },
+      counts: { industry: 4, monitored_count: 4, core_count: 4, context_count: 0 },
+      presentation_mode: "canonical_brief"
+    },
+    "cybersecurity": {
+      id: "cybersecurity",
+      db_industry: "Cybersecurity",
+      name: "Cybersecurity",
+      eyebrow: "AI-Enabled Defense",
+      latest_brief: { brief_id: 3, title: "Cyber Q2: The AI Threat Landscape", brief_date: "2026-08-10", qc_score: 4.8 },
+      summary: { top_trend: "Consolidation around AI-native security platforms.", readout: "Spending remains resilient despite macro headwinds." },
+      counts: { industry: 3, monitored_count: 3, core_count: 3, context_count: 0 },
+      presentation_mode: "canonical_brief"
+    },
+    "semiconductors": {
+      id: "semiconductors",
+      db_industry: "Semiconductors",
+      name: "Semiconductors",
+      eyebrow: "Export Controls & AI Demand",
+      latest_brief: { brief_id: 4, title: "Semi Q2: Export Controls vs Demand", brief_date: "2026-08-14", qc_score: 4.9 },
+      summary: { top_trend: "Demand for advanced compute clashed with tariffs.", readout: "Insatiable appetite for AI GPUs and custom silicon." },
+      counts: { industry: 3, monitored_count: 3, core_count: 3, context_count: 0 },
+      presentation_mode: "canonical_brief"
+    },
+    "ai-data-platforms": {
+      id: "ai-data-platforms",
+      db_industry: "AI & Data Platforms",
+      name: "AI & Data Platforms",
+      eyebrow: "Compliance & Governance",
+      latest_brief: { brief_id: 5, title: "Data Q2: Navigating the EU AI Act", brief_date: "2026-08-05", qc_score: 4.6 },
+      summary: { top_trend: "EU AI Act enforcement dictates strict transparency.", readout: "Rapid auditing of AI data pipelines for compliance." },
+      counts: { industry: 3, monitored_count: 3, core_count: 2, context_count: 1 },
+      presentation_mode: "canonical_brief"
+    }
+  },
+  pilot_industries: {
+    "enterprise-software": {
+      trends: [
+        {
+          trend_id: "es-t1",
+          display_order: 1,
+          name: "Rise of Agentic Workflow Automation",
+          tracked_since: "2026-01",
+          monthly_change: "IMPROVING",
+          momentum: "Accelerating",
+          breadth: "Broad",
+          evidence_strength: "BROAD_WITH_FINANCIAL_CONFIRMATION",
+          current_readout: "SaaS vendors are aggressively moving beyond LLM 'chat' interfaces into agentic AI frameworks capable of multi-step, cross-application tasks (e.g., automated procure-to-pay). Bain's latest Q2 report sizing this at a $100B opportunity matches early revenue bumps from Salesforce and ServiceNow in their latest earnings.",
+          what_changed: "In Q2, enterprise software shifted from generative experiments to monetizing structured autonomous agents.",
+          why_it_matters: "Buyers are suffering from 'tool sprawl' and will consolidate spend on vendors that offer holistic, autonomous productivity platforms.",
+          confidence: "High",
+          conversation_hypothesis: "Ask clients if their software vendor strategy is consolidating around Agentic platforms or if they are still buying fragmented point solutions."
+        },
+        {
+          trend_id: "es-t2",
+          display_order: 2,
+          name: "SaaS Valuation Re-rating & Margin Focus",
+          tracked_since: "2025-08",
+          monthly_change: "STABLE",
+          momentum: "Persistent",
+          breadth: "Sector-Wide",
+          evidence_strength: "BROAD_WITH_FINANCIAL_CONFIRMATION",
+          current_readout: "Following a mid-year valuation correction noted by Bain's PE tech report, enterprise software firms are aggressively rationalizing operational costs. Q2 2026 earnings calls (e.g., SAP, Oracle) featured heavy emphasis on CapEx discipline and using AI internally to drive software engineering efficiency.",
+          what_changed: "Investors are no longer rewarding 'growth at all costs', demanding clear ROI on AI infrastructure investments.",
+          why_it_matters: "SaaS pricing power will be tested; vendors must prove AI add-ons generate immediate ROI for end-users to justify price hikes.",
+          confidence: "High",
+          conversation_hypothesis: "Explore how clients are negotiating renewals with SaaS vendors pushing mandatory AI tier upgrades."
+        },
+        {
+          trend_id: "es-t3",
+          display_order: 3,
+          name: "EU AI Act Compliance as a Feature",
+          tracked_since: "2026-04",
+          monthly_change: "WORSENING",
+          momentum: "Accelerating",
+          breadth: "Global",
+          evidence_strength: "OBSERVED_IN_MARKET",
+          current_readout: "With the August 2, 2026 enactment of Article 50 of the EU AI Act, enterprise software vendors (especially those providing GPAI and synthetic data tools) are baking compliance reporting directly into their SaaS dashboards. Failure to do so has become an immediate dealbreaker in European procurement cycles.",
+          what_changed: "Regulatory deadlines have hit, turning compliance from a theoretical risk into a hard functional requirement for enterprise software.",
+          why_it_matters: "Non-compliant vendors risk massive fines and immediate lock-out from EU enterprise budgets.",
+          confidence: "Very High",
+          conversation_hypothesis: "Discuss the client's readiness to audit their SaaS stack for EU AI Act Article 50 compliance, especially synthetic content labeling."
+        }
+      ],
+      archetypes: [],
+      gsi_hypotheses: [],
+      watch_items: ["Salesforce Agentforce Adoption", "ServiceNow Q3 Guidance", "EU AI Act Sandbox Enrollments"],
+      evidence: { 
+        "es-t1": ["Bain Technology Report Q2 2026", "ServiceNow Q2 2026 Earnings Call Transcript"],
+        "es-t2": ["Bain Private Equity Midyear Report 2026", "SAP Q2 2026 Earnings"],
+        "es-t3": ["European Commission AI Office August 2026 Bulletins", "McKinsey Global Tech Agenda 2026"]
+      }
+    }
+  },
+  companies: [
+    { company_id: 1, name: "NVIDIA", ticker: "NVDA", industry: "Semiconductors", industry_role: "core", latest_brief: { brief_id: 101, title: "Q2 2026: Unrelenting AI GPU Demand", brief_date: "2026-08-10", qc_score: 4.9 }, aliases: ["Nvidia Corp"] },
+    { company_id: 2, name: "Microsoft", ticker: "MSFT", industry: "Cloud & Infrastructure", industry_role: "core", latest_brief: { brief_id: 102, title: "Q2 2026: Azure AI CapEx Growth", brief_date: "2026-07-28", qc_score: 4.8 }, aliases: [] },
+    { company_id: 3, name: "Alphabet", ticker: "GOOGL", industry: "Cloud & Infrastructure", industry_role: "core", latest_brief: { brief_id: 103, title: "Q2 2026: Google Cloud Surges 82%", brief_date: "2026-07-29", qc_score: 4.9 }, aliases: ["Google"] },
+    { company_id: 4, name: "Amazon", ticker: "AMZN", industry: "Cloud & Infrastructure", industry_role: "core", latest_brief: { brief_id: 104, title: "Q2 2026: AWS AI Workload Acceleration", brief_date: "2026-08-01", qc_score: 4.7 }, aliases: ["AWS"] },
+    { company_id: 5, name: "Apple", ticker: "AAPL", industry: "Cloud & Infrastructure", industry_role: "context", latest_brief: { brief_id: 105, title: "Q2 2026: Physical AI & Device Edge Compute", brief_date: "2026-08-05", qc_score: 4.5 }, aliases: [] },
+    { company_id: 6, name: "Meta", ticker: "META", industry: "AI & Data Platforms", industry_role: "core", latest_brief: { brief_id: 106, title: "Q2 2026: Open Source AI Monetization", brief_date: "2026-07-31", qc_score: 4.6 }, aliases: ["Meta Platforms"] },
+    { company_id: 7, name: "Salesforce", ticker: "CRM", industry: "Enterprise Software", industry_role: "core", latest_brief: { brief_id: 107, title: "Q2 2026: Agentic Workflow Growth", brief_date: "2026-08-14", qc_score: 4.7 }, aliases: [] },
+    { company_id: 8, name: "Oracle", ticker: "ORCL", industry: "Enterprise Software", industry_role: "core", latest_brief: { brief_id: 108, title: "Q2 2026: Cloud Infrastructure Expansion", brief_date: "2026-08-12", qc_score: 4.8 }, aliases: [] },
+    { company_id: 9, name: "SAP", ticker: "SAP", industry: "Enterprise Software", industry_role: "core", latest_brief: { brief_id: 109, title: "Q2 2026: Cloud ERP & GenAI Integration", brief_date: "2026-07-25", qc_score: 4.6 }, aliases: [] },
+    { company_id: 10, name: "ServiceNow", ticker: "NOW", industry: "Enterprise Software", industry_role: "core", latest_brief: { brief_id: 110, title: "Q2 2026: ITSM AI Automation Adoption", brief_date: "2026-07-26", qc_score: 4.9 }, aliases: [] },
+    { company_id: 11, name: "CrowdStrike", ticker: "CRWD", industry: "Cybersecurity", industry_role: "core", latest_brief: { brief_id: 111, title: "Q2 2026: AI-Native Endpoint Security", brief_date: "2026-08-08", qc_score: 4.8 }, aliases: [] },
+    { company_id: 12, name: "TSMC", ticker: "TSM", industry: "Semiconductors", industry_role: "core", latest_brief: { brief_id: 112, title: "Q2 2026: Advanced Node Capacity Sold Out", brief_date: "2026-07-16", qc_score: 4.9 }, aliases: ["Taiwan Semiconductor"] },
+    { company_id: 13, name: "Intel", ticker: "INTC", industry: "Semiconductors", industry_role: "core", latest_brief: { brief_id: 113, title: "Q2 2026: Foundry Progress & Export Controls", brief_date: "2026-07-30", qc_score: 4.5 }, aliases: [] }
+  ]
+};
